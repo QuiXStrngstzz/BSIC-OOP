@@ -11,6 +11,8 @@ class Person:
 size = int(input("HOW MANY NAMES: "))
 list_of_names = []
 
+os.system("cls" if os.name == "nt" else "clear")
+
 print("ENTER FULL NAME BELOW")
 print("_____________________")
 
